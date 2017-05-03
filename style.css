@@ -5,7 +5,8 @@ img {
 }
 
 p {
-  font-size: 80%
+  font-size: 80%;
+  margin-left : 2%;
 }
 
 body {
@@ -33,6 +34,7 @@ h3 {
   font-family: sans-serif;
   font-size: 100%;
   line-height: 70%;
+  margin-left : 2%;
 }
 
 a {
@@ -83,10 +85,6 @@ a:hover {
   top: 0;
   bottom: 0;
   background-color: rgb(67, 81, 95);
-}
-
-#sidebar > li {
-  color: red;
 }
 
 .button > li {
