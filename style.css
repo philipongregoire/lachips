@@ -48,6 +48,7 @@ a:hover {
 #container {
   width: 45%;
   margin: 0 auto;
+  margin-left: 300px;
 }
 
 .card {
@@ -73,4 +74,23 @@ a:hover {
 
 .image-circle {
   border-radius: 50%;
+}
+
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(67, 81, 95);
+}
+
+#sidebar > li {
+  color: red;
+}
+
+.button > li {
+  display: inline-block;
+  padding: 20px 20px 0px;
+  font-size: 180%
 }
