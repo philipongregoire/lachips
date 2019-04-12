@@ -1,7 +1,7 @@
 img {
   object-fit: cover;
-  width:230px;
-  height:230px
+  width:320px;
+  height:320px
 }
 
 p {
@@ -30,12 +30,10 @@ div.parent div {
 }
 
 h1 {
-  font-family: Montserrat;
   line-height: 100%;
 }
 
 h2 {
-  font-family: Montserrat;
   line-height: 80%;
 }
 
