@@ -15,13 +15,13 @@ body {
 }
 div.parent {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   height: 100vh;
   background : none;
 }
 
-@media screen and (min-width:857px) {
+@media screen and (min-width:990px) {
   div.parent {
     height: 100vh;
     background: url("https://res.cloudinary.com/dm1cxqdcn/image/upload/v1555075254/LA_CHIPS_COLLAGE_LARGE_WEB_COMING_SOON_l8wy82.png");
