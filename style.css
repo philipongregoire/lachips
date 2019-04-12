@@ -15,11 +15,17 @@ body {
 }
 div.parent {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   height: 100vh;
-  background-image: url("https://res.cloudinary.com/dm1cxqdcn/image/upload/v1555075254/LA_CHIPS_COLLAGE_LARGE_WEB_COMING_SOON_l8wy82.png");
+  background: url("https://res.cloudinary.com/dm1cxqdcn/image/upload/v1555075254/LA_CHIPS_COLLAGE_LARGE_WEB_COMING_SOON_l8wy82.png");
   background-size: cover;
+}
+
+@media screen and (max-width:857px) {
+  div.parent {
+    background : none;
+  }
 }
 
 div.parent div {
